@@ -1,0 +1,67 @@
+img {
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+hr {
+    color:gainsboro;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+  
+.login-box {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+ 
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+  
+input[type=email] {
+    width: 285px;
+    padding: 10px 6px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type=email]:hover {
+    background-color:whitesmoke;
+}
+
+input[type=password] {
+    width: 285px;
+    padding: 10px 6px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type=password]:hover {
+    background-color:whitesmoke;
+}
+  
+input[type=submit] {
+    width: 40%;
+    padding: 15px;
+    background-color:#2A2963;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:darkslateblue;
+}
